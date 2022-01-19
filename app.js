@@ -1,7 +1,7 @@
 const express = require('express') // const dont change, let can change
 const app = express()
 const path = require('path')
-const port = process.env.Port||3000
+const port = process.env.PORT||3000
 
 app.use(express.static(__dirname+"/views"))
 
